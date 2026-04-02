@@ -23,7 +23,7 @@ repository               : "Tuckmd/Tuckmd.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/chess_profile_pic.jpg"
+  avatar           : "chess_profile_pic.jpg"
   name             : "Michael Tuck"
   pronouns         : # example: "she/her"  
   bio              : "Add short biography for the left-hand sidebar"
