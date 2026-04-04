@@ -35,6 +35,11 @@ var addressPoints = [
     -76.610759
   ],
   [
+    "Targeted Imaging Mass Spectrometry of Malaria-causing Plasmodia in Mouse Liver<br />American Society for Mass Spectrometry; San Diego, California USA",
+    32.7174202,
+    -117.162772
+  ],
+  [
     "Mapping Lipids in Conjunction with Quantitative Drug Analysis for Tuberculosis with MALDI Mass Spectrometry Imaging<br />Chimie & Biologie des Membranes et des Nano-objets (CBMN) Scientific Day; Bordeaux, France",
     44.841225,
     -0.5800364
