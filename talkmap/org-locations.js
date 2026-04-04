@@ -15,8 +15,8 @@ var addressPoints = [
     -0.1277653
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "In Vivo, Time-Dependent Metabolic Flux Analysis of Normal and Tumor Tissue Using MasSpec Pen Technology<br />American Society for Mass Spectrometry; Baltimore, MD, USA",
+    39.2908816,
+    -76.610759
   ]
 ];
