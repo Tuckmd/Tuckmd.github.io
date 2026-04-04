@@ -5,5 +5,5 @@ type: "Poster Presentation"
 permalink: /talks/2017-diabetic-kidney-asms
 venue: "American Society for Mass Spectrometry"
 date: 2017-06-01
-location: "Indianapolis, Indiana USA"
+location: "Indianapolis, IN, USA"
 ---
