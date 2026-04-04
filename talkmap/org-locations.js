@@ -5,7 +5,7 @@ var addressPoints = [
     -0.5800364
   ],
   [
-    "In Vivo, Time-Dependent Metabolic Flux Analysis of Normal and Tumor Tissue Using MasSpec Pen Technology<br />Conference Name; Lisbon, Portugal",
+    "In Vivo, Time-Dependent Metabolic Flux Analysis of Normal and Tumor Tissue Using MasSpec Pen Technology<br />European Association for Cancer Research; Lisbon, Portugal",
     38.7077507,
     -9.1365919
   ],
