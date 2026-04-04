@@ -5,6 +5,11 @@ var addressPoints = [
     -0.5800364
   ],
   [
+    "In Vivo, Time-Dependent Metabolic Flux Analysis of Normal and Tumor Tissue Using MasSpec Pen Technology<br />Conference Name; Lisbon, Portugal",
+    38.7077507,
+    -9.1365919
+  ],
+  [
     "Early History of Mass Spectrometry<br />Vanderbilt University, Mass Spectrometry Resource Center Lecture Series; Nashville, TN, USA",
     36.1622767,
     -86.7742984
