@@ -15,7 +15,7 @@ var addressPoints = [
     -1.4702278
   ],
   [
-    "Imaging Lipid and Protein Changes in Human Diabetic Kidney by MALDI Mass Spectrometry<br />American Society for Mass Spectrometry; Indianapolis, Indiana USA",
+    "Imaging Lipid and Protein Changes in Human Diabetic Kidney by MALDI Mass Spectrometry<br />American Society for Mass Spectrometry; Indianapolis, IN, USA",
     39.7683331,
     -86.1583502
   ],
