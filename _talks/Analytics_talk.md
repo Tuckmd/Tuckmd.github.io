@@ -1,7 +1,7 @@
 ---
 title: "Multi-drug Quantification by MALDI-MSI"
 collection: talks
-type: "Conference proceedings talk"
+type: "Talk"
 permalink: /talks/Analytics_talk
 venue: "Analytics (Interdisciplenary Conference)"
 date: 2022-09-08
