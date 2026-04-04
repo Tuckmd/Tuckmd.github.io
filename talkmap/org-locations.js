@@ -25,6 +25,11 @@ var addressPoints = [
     -76.610759
   ],
   [
+    "Mapping Lipids in Conjunction with Quantitative Drug Analysis for Tuberculosis with MALDI Mass Spectrometry Imaging<br />Chimie & Biologie des Membranes et des Nano-objets (CBMN) Scientific Day; Bordeaux, France",
+    44.841225,
+    -0.5800364
+  ],
+  [
     "Multi-drug Quantification by MALDI-MSI<br />Analytics (Interdisciplenary Conference); Nantes, France",
     47.2186371,
     -1.5541362
