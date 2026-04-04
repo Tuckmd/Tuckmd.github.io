@@ -2,7 +2,7 @@
 title: "A New Tool for Metabolic Flux Analysis with MasSpec Pen Technology"
 collection: talks
 type: "Talk"
-permalink: /talks/2012-03-01-talk-1
+permalink: /talks/2025_BCM_innovation_scholar_talk
 venue: "Baylor College of Medicine, The Michael E. DeBakey Department of Surgery"
 date: 2025-06-11
 location: "Houston, TX, USA"
