@@ -15,6 +15,11 @@ var addressPoints = [
     -1.4702278
   ],
   [
+    "Imaging Lipid and Protein Changes in Human Diabetic Kidney by MALDI Mass Spectrometry<br />American Society for Mass Spectrometry; Indianapolis, Indiana USA",
+    39.7683331,
+    -86.1583502
+  ],
+  [
     "In Vivo, Time-Dependent Metabolic Flux Analysis of Normal and Tumor Tissue Using MasSpec Pen Technology<br />European Association for Cancer Research; Lisbon, Portugal",
     38.7077507,
     -9.1365919
