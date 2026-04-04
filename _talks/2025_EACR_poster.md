@@ -3,7 +3,7 @@ title: "In Vivo, Time-Dependent Metabolic Flux Analysis of Normal and Tumor Tiss
 collection: talks
 type: "Poster Presentation"
 permalink: /talks/2025_EACR_poster
-venue: "Conference Name"
-date: 2025-06-01
+venue: "European Association for Cancer Research"
+date: 2025-06-18
 location: "Lisbon, Portugal"
 ---
