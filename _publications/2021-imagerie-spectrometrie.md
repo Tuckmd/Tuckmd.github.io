@@ -1,7 +1,7 @@
 ---
 title: "Imagerie par Spectrometrie de Masse: Principes et Applications"
 collection: publications
-category: manuscripts
+category: books
 permalink: /publication/2021-imagerie-spectrometrie
 excerpt: 'A French-language reference work covering the principles and applications of mass spectrometry imaging.'
 date: 2021-01-01
