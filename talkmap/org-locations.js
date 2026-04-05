@@ -66,8 +66,8 @@ var addressPoints = [
   ],
   [
     "Multidrug Quantification by MALDI-MSI<br />International Mass Spectrometry Conference; Maastricht, the Netherlands",
-    50.8512438,
-    5.6909768
+    50.8579855,
+    5.6969882
   ],
   [
     "A New Tool for Metabolic Flux Analysis with MasSpec Pen Technology<br />Baylor College of Medicine, The Michael E. DeBakey Department of Surgery; Houston, TX, USA",
