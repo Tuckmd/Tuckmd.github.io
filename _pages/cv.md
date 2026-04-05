@@ -11,26 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Bioimaging, Université de Bordeaux, 2024 (expected)
+* B.S. in Biochemistry and Molecular Biology, 2012
+* A.S. in Pre-medicine, Cleveland State Community College, 2010
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2024 - Present: Postdoctoral Associate
+  * Baylor College of Medicine, The Michael E. DeBakey Department of Surgery
+  * Duties includes: 
+  * Supervisor: Livia Eberlin
+ 
+* 2020 - 2024: Doctoral Candidate
+  * Université de Bordeaux
+  * Duties included: 
+  * Supervisor: Nicolas Desbenoit
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2016 - 2020: Research Assistant
+  * Vanderbilt University
+  * Duties included: 
+  * Supervisor: Richard Caprioli, Kevin Schey, Michelle Reyzer
   
 Skills
 ======
