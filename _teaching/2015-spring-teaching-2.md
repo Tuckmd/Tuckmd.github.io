@@ -1,20 +1,17 @@
 ---
-title: "Teaching experience 2"
+title: "Advanced Imaging Mass Spectrometry (AIMS)"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+permalink: /teaching/aims-vanderbilt
+venue: "Vanderbilt University"
+date: 2017-04-22
+location: "Nashville, Tennessee USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Workshop leader and instructor for the Advanced Imaging Mass Spectrometry (AIMS) workshop at Vanderbilt University. 2017-2019
 
-Heading 1
-======
+## Overview
 
-Heading 2
-======
+## Topics
 
-Heading 3
-======
+## Additional Information
