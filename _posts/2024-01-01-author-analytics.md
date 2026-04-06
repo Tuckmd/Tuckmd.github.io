@@ -82,7 +82,7 @@ Type in any researcher's name to see their publication venues, research keywords
 let yearChart = null;
 
 async function searchAuthors(name) {
-  const url = `https://api.openalex.org/authors?search=${encodeURIComponent(name)}&per-page=5&mailto=tuckmd1@gmail.com`;
+  const url = `https://api.openalex.org/works?filter=author.id:${id},type:article|review|book-chapter|book|proceedings-article&per-page=200&page=${page}&mailto=tuckmd1@gmail.com`;
   const res = await fetch(url);
   if (!res.ok) throw new Error('API error');
   const data = await res.json();
@@ -93,7 +93,7 @@ async function fetchAuthorWorks(authorId) {
   const id = authorId.replace('https://openalex.org/', '');
   let allWorks = [], page = 1;
   while (true) {
-    const url = `https://api.openalex.org/works?filter=author.id:${id}&per-page=200&page=${page}&mailto=tuckmd1@gmail.com`;
+    const url = `https://api.openalex.org/works?filter=author.id:${id},type:article|review|book-chapter|book|proceedings-article&per-page=200&page=${page}&mailto=tuckmd1@gmail.com`;
     const res = await fetch(url);
     if (!res.ok) break;
     const data = await res.json();
