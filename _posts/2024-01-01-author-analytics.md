@@ -7,7 +7,7 @@ tags:
   - research
 ---
 
-Type in any researcher's name to see their publication venues, research keywords, citation stats, and co-author network pulled live from OpenAlex.
+Type in any researcher's name to see their publication venues, research keywords, citation stats, and co-author network pulled live from OpenAlex. Results are filtered to peer-reviewed articles, reviews, book chapters, and conference papers only.
 
 <style>
 * { box-sizing: border-box; }
@@ -39,6 +39,7 @@ Type in any researcher's name to see their publication venues, research keywords
 #author-header { margin-bottom: 1.5rem; }
 #author-header h2 { font-size: 18px; font-weight: 500; border: none; padding: 0; margin-bottom: 4px; }
 #author-header p { font-size: 13px; color: #666; }
+.filter-note { font-size: 12px; color: #888; margin-bottom: 1.5rem; }
 </style>
 
 <div id="search-row">
@@ -53,8 +54,9 @@ Type in any researcher's name to see their publication venues, research keywords
     <h2 id="author-name-display"></h2>
     <p id="author-affil-display"></p>
   </div>
+  <p class="filter-note">Showing peer-reviewed articles, reviews, book chapters, and conference papers only.</p>
   <div class="stat-grid">
-    <div class="stat"><div class="stat-label">Total works</div><div class="stat-value" id="stat-works">—</div></div>
+    <div class="stat"><div class="stat-label">Filtered works</div><div class="stat-value" id="stat-works">—</div></div>
     <div class="stat"><div class="stat-label">Total citations</div><div class="stat-value" id="stat-cites">—</div></div>
     <div class="stat"><div class="stat-label">h-index</div><div class="stat-value" id="stat-h">—</div></div>
     <div class="stat"><div class="stat-label">Active years</div><div class="stat-value" id="stat-years">—</div></div>
@@ -80,9 +82,11 @@ Type in any researcher's name to see their publication venues, research keywords
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 let yearChart = null;
+const TYPE_FILTER = 'article|review|book-chapter|book|proceedings-article';
+const EMAIL = 'tuckmd1@gmail.com';
 
 async function searchAuthors(name) {
-  const url = `https://api.openalex.org/works?filter=author.id:${id},type:article|review|book-chapter|book|proceedings-article&per-page=200&page=${page}&mailto=tuckmd1@gmail.com`;
+  const url = `https://api.openalex.org/authors?search=${encodeURIComponent(name)}&per-page=5&mailto=${EMAIL}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error('API error');
   const data = await res.json();
@@ -93,7 +97,7 @@ async function fetchAuthorWorks(authorId) {
   const id = authorId.replace('https://openalex.org/', '');
   let allWorks = [], page = 1;
   while (true) {
-    const url = `https://api.openalex.org/works?filter=author.id:${id},type:article|review|book-chapter|book|proceedings-article&per-page=200&page=${page}&mailto=tuckmd1@gmail.com`;
+    const url = `https://api.openalex.org/works?filter=author.id:${id},type:${TYPE_FILTER}&per-page=200&page=${page}&mailto=${EMAIL}`;
     const res = await fetch(url);
     if (!res.ok) break;
     const data = await res.json();
@@ -107,48 +111,96 @@ async function fetchAuthorWorks(authorId) {
 
 function renderAuthor(author) {
   document.getElementById('author-name-display').textContent = author.display_name;
-  const inst = author.last_known_institutions?.[0]?.display_name || author.last_known_institution?.display_name || '';
+  const inst = author.last_known_institutions?.[0]?.display_name ||
+               author.last_known_institution?.display_name || '';
   document.getElementById('author-affil-display').textContent = inst;
-  document.getElementById('stat-works').textContent = (author.works_count || 0).toLocaleString();
   document.getElementById('stat-cites').textContent = (author.cited_by_count || 0).toLocaleString();
   document.getElementById('stat-h').textContent = author.summary_stats?.h_index ?? '—';
 }
 
 function renderWorks(works) {
-  if (!works.length) return;
+  if (!works.length) {
+    document.getElementById('error').textContent = 'No qualifying publications found for this author.';
+    return;
+  }
+
+  document.getElementById('stat-works').textContent = works.length.toLocaleString();
+
   const years = works.map(w => w.publication_year).filter(Boolean);
-  document.getElementById('stat-years').textContent = Math.min(...years) + '–' + Math.max(...years);
+  const minY = Math.min(...years), maxY = Math.max(...years);
+  document.getElementById('stat-years').textContent = minY === maxY ? String(minY) : `${minY}–${maxY}`;
+
   const yearCounts = {};
-  years.forEach(y => { yearCounts[y] = (yearCounts[y]||0) + 1; });
+  years.forEach(y => { yearCounts[y] = (yearCounts[y] || 0) + 1; });
   const sortedYears = Object.keys(yearCounts).sort();
   if (yearChart) yearChart.destroy();
   yearChart = new Chart(document.getElementById('year-chart'), {
     type: 'bar',
-    data: { labels: sortedYears, datasets: [{ data: sortedYears.map(y => yearCounts[y]), backgroundColor: '#378ADD', borderRadius: 3 }] },
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { display: false }, ticks: { font: { size: 11 }, autoSkip: true, maxRotation: 45 } }, y: { ticks: { font: { size: 11 }, stepSize: 1 } } } }
+    data: {
+      labels: sortedYears,
+      datasets: [{
+        data: sortedYears.map(y => yearCounts[y]),
+        backgroundColor: '#378ADD',
+        borderRadius: 3,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 11 }, autoSkip: true, maxRotation: 45 } },
+        y: { grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { font: { size: 11 }, stepSize: 1 } }
+      }
+    }
   });
+
   const venueCounts = {};
-  works.forEach(w => { const v = w.primary_location?.source?.display_name; if (v) venueCounts[v] = (venueCounts[v]||0) + 1; });
-  const topVenues = Object.entries(venueCounts).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  works.forEach(w => {
+    const v = w.primary_location?.source?.display_name;
+    if (v) venueCounts[v] = (venueCounts[v] || 0) + 1;
+  });
+  const topVenues = Object.entries(venueCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
   const maxV = topVenues[0]?.[1] || 1;
   document.getElementById('venues-list').innerHTML = topVenues.map(([name, count]) =>
-    `<div class="bar-row"><div class="bar-label" title="${name}">${name}</div><div class="bar-track"><div class="bar-fill" style="width:${Math.round(count/maxV*100)}%"></div></div><div class="bar-count">${count}</div></div>`
+    `<div class="bar-row">
+      <div class="bar-label" title="${name}">${name}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.round(count/maxV*100)}%"></div></div>
+      <div class="bar-count">${count}</div>
+    </div>`
   ).join('');
+
   const conceptCounts = {};
-  works.forEach(w => { (w.concepts||[]).forEach(c => { if (c.level >= 1 && c.level <= 3) conceptCounts[c.display_name] = (conceptCounts[c.display_name]||0) + (c.score||1); }); });
-  const topConcepts = Object.entries(conceptCounts).sort((a,b)=>b[1]-a[1]).slice(0,30);
+  works.forEach(w => {
+    (w.concepts || []).forEach(c => {
+      if (c.level >= 1 && c.level <= 3)
+        conceptCounts[c.display_name] = (conceptCounts[c.display_name] || 0) + (c.score || 1);
+    });
+  });
+  const topConcepts = Object.entries(conceptCounts).sort((a, b) => b[1] - a[1]).slice(0, 30);
   const maxC = topConcepts[0]?.[1] || 1;
   document.getElementById('keywords-cloud').innerHTML = topConcepts.map(([name, score]) => {
-    const pct = score/maxC;
+    const pct = score / maxC;
     const cls = pct > 0.5 ? 'large' : pct > 0.25 ? 'medium' : '';
     return `<span class="tag ${cls}">${name}</span>`;
   }).join('');
+
   const coauthorCounts = {};
-  works.forEach(w => { (w.authorships||[]).forEach(a => { const n = a.author?.display_name; if (n) coauthorCounts[n] = (coauthorCounts[n]||0) + 1; }); });
-  const topCoauthors = Object.entries(coauthorCounts).sort((a,b)=>b[1]-a[1]).slice(1,11);
+  works.forEach(w => {
+    (w.authorships || []).forEach(a => {
+      const n = a.author?.display_name;
+      if (n) coauthorCounts[n] = (coauthorCounts[n] || 0) + 1;
+    });
+  });
+  const topCoauthors = Object.entries(coauthorCounts).sort((a, b) => b[1] - a[1]).slice(1, 11);
   const maxCo = topCoauthors[0]?.[1] || 1;
   document.getElementById('coauthors-list').innerHTML = topCoauthors.map(([name, count]) =>
-    `<div class="bar-row"><div class="bar-label">${name}</div><div class="bar-track"><div class="bar-fill" style="width:${Math.round(count/maxCo*100)}%;background:#1D9E75;"></div></div><div class="bar-count">${count}</div></div>`
+    `<div class="bar-row">
+      <div class="bar-label">${name}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.round(count/maxCo*100)}%;background:#1D9E75;"></div></div>
+      <div class="bar-count">${count}</div>
+    </div>`
   ).join('');
 }
 
@@ -163,21 +215,30 @@ async function doSearch() {
   try {
     const authors = await searchAuthors(name);
     document.getElementById('loading').style.display = 'none';
-    if (!authors.length) { document.getElementById('error').textContent = 'No authors found. Try a different name.'; return; }
-    if (authors.length === 1) { await loadAuthor(authors[0]); }
-    else {
+    if (!authors.length) {
+      document.getElementById('error').textContent = 'No authors found. Try a different name.';
+      return;
+    }
+    if (authors.length === 1) {
+      await loadAuthor(authors[0]);
+    } else {
       const box = document.getElementById('author-matches');
       box.innerHTML = '<div style="font-size:13px;color:#666;margin-bottom:8px;">Multiple authors found — select one:</div>';
       authors.forEach(a => {
-        const inst = a.last_known_institutions?.[0]?.display_name || a.last_known_institution?.display_name || 'Unknown institution';
+        const inst = a.last_known_institutions?.[0]?.display_name ||
+                     a.last_known_institution?.display_name || 'Unknown institution';
         const btn = document.createElement('button');
         btn.className = 'match-btn';
-        btn.innerHTML = `<div class="match-name">${a.display_name}</div><div class="match-meta">${inst} · ${a.works_count||0} works · ${(a.cited_by_count||0).toLocaleString()} citations</div>`;
+        btn.innerHTML = `<div class="match-name">${a.display_name}</div>
+          <div class="match-meta">${inst} · ${(a.works_count || 0)} works · ${(a.cited_by_count || 0).toLocaleString()} citations</div>`;
         btn.onclick = () => { box.innerHTML = ''; loadAuthor(a); };
         box.appendChild(btn);
       });
     }
-  } catch(e) { document.getElementById('loading').style.display = 'none'; document.getElementById('error').textContent = 'Error connecting to OpenAlex. Please try again.'; }
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error').textContent = 'Error connecting to OpenAlex. Please try again.';
+  }
 }
 
 async function loadAuthor(author) {
@@ -188,10 +249,14 @@ async function loadAuthor(author) {
     const works = await fetchAuthorWorks(author.id);
     renderWorks(works);
     document.getElementById('results').style.display = 'block';
-  } catch(e) { document.getElementById('error').textContent = 'Error loading works.'; }
+  } catch(e) {
+    document.getElementById('error').textContent = 'Error loading works.';
+  }
   document.getElementById('loading').style.display = 'none';
 }
 
 document.getElementById('search-btn').onclick = doSearch;
-document.getElementById('author-input').addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
+document.getElementById('author-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doSearch();
+});
 </script>
