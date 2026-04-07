@@ -3,7 +3,7 @@ title: "Imagerie par Spectrometrie de Masse: Principes et Applications"
 collection: publications
 category: books
 permalink: /publication/2021-imagerie-spectrometrie
-excerpt: 'A French-language reference work covering the principles and applications of mass spectrometry imaging.'
+excerpt: 'Our review on multimodal imaging was adapted for a French-language reference book covering the principles and applications of mass spectrometry imaging.'
 date: 2021-01-01
 venue: 'EDP Sciences'
 paperurl: 'https://hal.science/hal-03954524'
