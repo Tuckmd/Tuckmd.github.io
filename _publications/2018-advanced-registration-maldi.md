@@ -3,7 +3,7 @@ title: "Advanced Registration and Analysis of MALDI Imaging Mass Spectrometry Me
 collection: publications
 category: manuscripts
 permalink: /publication/2018-advanced-registration-maldi
-excerpt: 'Describes advanced registration and analysis methods for MALDI imaging mass spectrometry using autofluorescence microscopy.'
+excerpt: 'This paper presents an autofluorescence microscopy–based computational workflow for highly accurate, largely automated registration of MALDI imaging mass spectrometry data to microscopy—enabling unbiased, pixel-level spatial correlation within and across tissue sections, including single-cell–scale analysis.'
 date: 2018-10-02
 venue: 'Analytical Chemistry'
 paperurl: 'https://doi.org/10.1021/acs.analchem.8b02884'
