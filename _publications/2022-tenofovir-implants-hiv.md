@@ -3,7 +3,7 @@ title: "Fundamental Aspects of Long-Acting Tenofovir Alafenamide Delivery from S
 collection: publications
 category: manuscripts
 permalink: /publication/2022-tenofovir-implants-hiv
-excerpt: 'Investigates fundamental aspects of long-acting tenofovir alafenamide delivery from subdermal implants for HIV prophylaxis.'
+excerpt: 'This paper investigates the delivery and release characteristics of long‑acting tenofovir alafenamide from subdermal implants for HIV prophylaxis with mass spectrometry imaging.'
 date: 2022-05-02
 venue: 'Scientific Reports'
 paperurl: 'https://www.nature.com/articles/s41598-022-11020-2'
