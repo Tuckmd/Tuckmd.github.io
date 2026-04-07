@@ -3,7 +3,7 @@ title: "Use of Proteomic Imaging Coupled with Transcriptomic Analysis to Identif
 collection: publications
 category: manuscripts
 permalink: /publication/2018-proteomic-imaging-cochlear
-excerpt: 'Combines proteomic imaging and transcriptomic analysis to identify biomolecules responsive to cochlear injury.'
+excerpt: 'Here, MALDI imaging is combined with transcriptomic analysis to identify and validate proteins that change in spatial distribution and expression in response to cochlear injury, providing a multimodal strategy to uncover molecular drivers of hearing loss.'
 date: 2018-07-01
 venue: 'Frontiers in Molecular Neuroscience'
 paperurl: 'https://doi.org/10.3389/fnmol.2018.00243'
