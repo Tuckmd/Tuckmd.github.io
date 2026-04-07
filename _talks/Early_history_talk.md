@@ -8,4 +8,4 @@ date: 2017-10-01
 location: "Nashville, TN, USA"
 ---
 
-This was a historical look at mass spectrometry that included some of the earliest experiments from JJ Thompson and others as well as some of the major milestones in the field.
+This was a historical look at mass spectrometry that included some of the earliest experiments from J.J. Thomson and others as well as some of the major milestones in the field.
