@@ -3,8 +3,9 @@ title: "Molecular Characterization of Tuberculosis by MALDI Mass Spectrometry: A
 collection: publications
 category: thesis
 permalink: /publication/2024-phd-thesis-tuberculosis
-excerpt: 'PhD thesis presenting molecular characterization of tuberculosis by MALDI mass spectrometry with applications toward multi-omic and multimodal imaging.'
+excerpt: 'My PhD thesis develops a quantitative MALDI mass spectrometry imaging workflow to simultaneously localize and measure multiple anti-tuberculosis drugs (clofazimine, rifampicin, and ethambutol) in infected lung tissue, revealing drug-specific spatial distributions and concentrations, optimizing detection in complex microenvironments, and enabling future multimodal and multi-omic analyses.'
 date: 2024-01-01
 venue: 'Universite de Bordeaux'
+paperurl: 'https://theses.hal.science/tel-05063548'
 citation: 'Tuck, M. (2024). &quot;Molecular Characterization of Tuberculosis by MALDI Mass Spectrometry: Applications Toward Multi-Omic and Multimodal Imaging.&quot; PhD Thesis, <i>Universite de Bordeaux</i>.'
 ---
