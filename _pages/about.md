@@ -15,6 +15,6 @@ My current research integrates real-time metabolic flux analysis and spatial bio
 
 ## Work and Resources
 
-Thank you for your interest in my work. On this site you can find links and descriptions of my publications, a map of my presentations, and other CV items. I also build and post research analytics tools and occasionally write about research methodology. You can find these in the Blogs section.
+Thank you for your interest in my work. On this site you can find links and descriptions of my [publications](/publications/), a [map of my presentations](/talkmap.html), and other CV items. I also build and post [research analytics tools](/posts/2024/01/author-analytics/) and occasionally write about research methodology. You can find these in the [Blog](/year-archive/) section.
 
 If you are interested in collaborating on a project, please feel free to reach out.
