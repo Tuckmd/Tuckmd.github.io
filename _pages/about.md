@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# About Me
 
 I am an analytical chemist and biomedical researcher specializing in mass spectrometry imaging and spatial metabolomics. I am currently a postdoctoral associate at Baylor College of Medicine, where my work focuses on developing and applying spatial and medical mass spectrometry approaches to study metabolism directly in tissue, with applications in surgical oncology. My prior work focused extensively on infectious disease, particularly tuberculosis.
 
