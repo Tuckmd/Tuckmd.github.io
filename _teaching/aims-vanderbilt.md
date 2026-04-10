@@ -1,5 +1,5 @@
 ---
-title: "Advanced Imaging Mass Spectrometry (AIMS)"
+title: "Advanced Imaging Mass Spectrometry (AIMS) 2017 - 2019"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/aims-vanderbilt
@@ -8,10 +8,11 @@ date: 2017-04-22
 location: "Nashville, Tennessee USA"
 ---
 
-Workshop leader and instructor for the Advanced Imaging Mass Spectrometry (AIMS) workshop at Vanderbilt University. 2017-2019
-
 ## Overview
+Workshop leader and instructor for the (Advanced Imaging Mass Spectrometry (AIMS))[https://medschool.vanderbilt.edu/aims/] workshop at Vanderbilt University. This 4 day course covers the most practical aspects of mass spectrometry imaging, from sample preparation, MALDI matrix application techniques, instrumentation, and data analysis. Technicians, PhD students, PIs and career scientists from all over the world joined us in Nashville for what was always a good time.
 
-## Topics
-
-## Additional Information
+## Topics I Taught
+- Sample Preparation: Tissue freezing, histological staining, FFPE treatment for bottom-up proteomics
+- Matrix Application: sublimation and hand spraying with affordable, general use lab equipment
+- MS Imaging: Pharmaceutical MS/MS imaging with the Linear Ion Trap (Thermo) and MALDI Duo source
+- Data analysis:Qualbrowswer and Image Quest (Thermo) and pathology integration with our in-house software
