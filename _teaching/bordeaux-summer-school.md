@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/bordeaux-summer-school
 venue: "Bordeaux Summer School, Université de Bordeaux"
-date: 2021
+date: "2021-07-01"
 location: "Bordeaux, France"
 ---
 
