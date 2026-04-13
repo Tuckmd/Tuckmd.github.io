@@ -8,10 +8,10 @@ date: 2021-07-10
 location: "Bordeaux, France"
 ---
 
-Annual summer school workshop covering advanced mass spectrometry techniques applied to the analysis of cultural heritage materials. Delivered in 2021 and 2022.
-
 ## Overview
-
-## Topics
-
-## Additional Information
+This course, attended by museum curators and researchers specializing in cultural heritage objects, covered advanced mass spectrometry topics such as LC-MS/MS proteomics and MALDI imaging. Connections made here allowed me to enter multiple museums for free.
+## Topics Covered
+- Advanced sectioning for inorganic objects
+- MALDI matrix application with a rotative sprayer
+- AP-SMALDI10 (TransMIT) MS imaging on the Orbitrap QE (Thermo)
+- Data analysis: MSiReader, Metaspace
