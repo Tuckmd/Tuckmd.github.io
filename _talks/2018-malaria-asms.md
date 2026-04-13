@@ -5,5 +5,5 @@ type: "Poster Presentation"
 permalink: /talks/2018-malaria-asms
 venue: "American Society for Mass Spectrometry"
 date: 2018-06-01
-location: "San Diego, California USA"
+location: "San Diego, California, USA"
 ---
