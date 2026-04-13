@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/aims-vanderbilt
 venue: "Vanderbilt University"
-date: 2017-04-22
+date: 2017-2019
 location: "Nashville, Tennessee USA"
 ---
 
