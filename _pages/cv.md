@@ -43,14 +43,14 @@ collaborations
 analysis
   * Performed quantitative analysis of drugs and metabolites in complex biological matrices
 
- * 2013 - 2014: Assistant Chemist - Environmental Sciences Corporation
+* 2013 - 2014: Assistant Chemist - Environmental Sciences Corporation
   *Performed trace metals analysis of environmental samples using ICP-MS instrumentation
 
- * 2012 - 2013: Health Physics Technician - Bartlett Nuclear
+* 2012 - 2013: Health Physics Technician - Bartlett Nuclear
   * ANSI 18.1 qualified health physics technician supporting nuclear power and radiochemistry facilities
   * Conducted radiological surveys and monitored personnel in controlled radiation environments
 
-* Rite Aid Pharmacy
+* 2010 - 2012: Pharmacy Technician - Rite Aid Pharmacy
   * State-registered pharmacy technician supporting pharmaceutical dispensing and patient services
   
 Skills
