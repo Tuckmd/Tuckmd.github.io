@@ -1,5 +1,5 @@
 ---
-title: "Initiation à l'Imagerie par Spectrométrie de Masse — MALDI Appliquée à la Santé"
+title: "Introduction to Mass Spectrometry Imaging - MALDI in Healthcare (Initiation à l'Imagerie par Spectrométrie de Masse — MALDI Appliquée à la Santé)"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/sts-atelier-bordeaux
@@ -8,10 +8,10 @@ date: 2023-07-15
 location: "Bordeaux, France"
 ---
 
-Introduction to MALDI mass spectrometry imaging applied to health, delivered as part of the STS Atelier program at the Université de Bordeaux.
-
 ## Overview
-
-## Topics
-
-## Additional Information
+This course was a mix of practical workshops and lectures for master's and early graduate students at the Université de Bordeaux. 
+## Topics Covered
+- Sample preparation considerations
+- Methods for quantitative mass spectrometry imaging
+- AP-SMALDI10  (TransMIT), QE Orbitrap (Thermo)
+- Data analysis and interpretation with MSiReader, Qualbrowser, and Metaspace
