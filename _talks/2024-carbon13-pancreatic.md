@@ -5,5 +5,5 @@ type: "Poster Presentation"
 permalink: /talks/2024-carbon13-pancreatic
 venue: "13th Annual Metabolism in Cancer Symposium, MD Anderson"
 date: 2024-09-01
-location: "Houston, Texas USA"
+location: "Houston, Texas, USA"
 ---
