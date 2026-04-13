@@ -59,6 +59,19 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Professional Memberships
+======
+* European Association of Cancer Research - since 2025
+* GdR-MSI (GDR2125) – founding member 2022
+* Le Groupe d’Etude et de Recherche en Lipidomique (GERLI) – since 2021
+* Société Française de Spectrométrie de Masse (SFSM) – Since 2020
+* French Proteomics Society – Since 2020
+* Mass Spectrometry Imaging Society – since 2018
+* Imaging Mass Spectrometry Society - founding member 2017
+* American Society of Mass Spectrometry - since 2016
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Science Fair Judge (Since 2024)
+* Houston Food Bank Volunteer (Since 2024
+* Middle and high school wrestling official (2025)
