@@ -10,7 +10,7 @@ var addressPoints = [
     -86.1583502
   ],
   [
-    "Targeted Imaging Mass Spectrometry of Malaria-causing Plasmodia in Mouse Liver<br />American Society for Mass Spectrometry; San Diego, California USA",
+    "Targeted Imaging Mass Spectrometry of Malaria-causing Plasmodia in Mouse Liver<br />American Society for Mass Spectrometry; San Diego, California, USA",
     32.7174202,
     -117.162772
   ],
@@ -45,12 +45,12 @@ var addressPoints = [
     -86.7742984
   ],
   [
-    "Quantifying Multiple Anti-tuberculosis Drugs in Infected Mouse Tissue<br />American Society for Mass Spectrometry; Houston, Texas USA",
+    "Quantifying Multiple Anti-tuberculosis Drugs in Infected Mouse Tissue<br />American Society for Mass Spectrometry; Houston, Texas, USA",
     29.7589382,
     -95.3676974
   ],
   [
-    "Analysis of Malaria-causing Plasmodium Infected Hepatocytes in Mouse Liver via Spatially Targeted Imaging Mass Spectrometry<br />American Society for Mass Spectrometry; Atlanta, Georgia USA",
+    "Analysis of Malaria-causing Plasmodium Infected Hepatocytes in Mouse Liver via Spatially Targeted Imaging Mass Spectrometry<br />American Society for Mass Spectrometry; Atlanta, Georgia, USA",
     33.7544657,
     -84.3898151
   ],
