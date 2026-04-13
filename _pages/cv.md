@@ -17,20 +17,41 @@ Education
 
 Work experience
 ======
-* 2024 - Present: Postdoctoral Associate
-  * Baylor College of Medicine, The Michael E. DeBakey Department of Surgery
-  * Duties includes: 
-  * Supervisor: Livia Eberlin
+* 2024 - Present: Postdoctoral Associate - Baylor College of Medicine
+  * Lead collaborative projects from DESI-MSI and MasSpec Pen technology to translational cancer research
+  * Perform _in vivo_ metabolic flux analysis in murine pancreatic cancer models to investigate tumor metabolism
+  * Conduct intraoperative mass spectrometry analysis for metabolic subtyping of human lung adenocarcinoma
+  * Develop DESI-MS imaging workflows to study spatial metabolism in CAR-T cell therapies and neuroblastoma models
+  * Mentor: Livia Eberlin
  
-* 2020 - 2024: Doctoral Candidate
-  * Université de Bordeaux
-  * Duties included: 
-  * Supervisor: Nicolas Desbenoit
+* 2020 - 2024: Doctoral Candidate - Université de Bordeaux/CNRS
+  * Developed quantitative mass spectrometry imaging methods for simultaneous measurement of multiple anti-tuberculosis drugs
+in infected lung tissue
+  * Designed multimodal imaging workflows integrating Raman spectroscopy, MRI, microscopy, and mass spectrometry for spatial
+biological analysis
+  * Established spatial multi-omics pipelines for fresh-frozen lung tissue to investigate drug-treated tuberculosis
+  * Mentor: Nicolas Desbenoit
 
-* 2016 - 2020: Research Assistant
-  * Vanderbilt University
-  * Duties included: 
-  * Supervisor: Richard Caprioli, Kevin Schey, Michelle Reyzer
+* 2016 - 2020: Research Assistant - Vanderbilt University
+  * Developed and applied spatial, multi-omic mass spectrometry imaging workflows for diverse biological and translational research
+collaborations
+  * Specialized in MALDI-MSI and drug imaging using a multitude of instrumentation across a wide range of biological applications, including kidney disease, malarial infection, oncology, etc.
+  * Mentors: Richard Caprioli, Kevin Schey, Michelle Reyzer
+ 
+* 2014 - 2016: Forensic Mass Spectrometrist - Aegis Sciences Corporation
+  * Operated and maintained LC–MS/MS, GC–MS, and ion trap mass spectrometry systems for forensic toxicology and sports antidoping
+analysis
+  * Performed quantitative analysis of drugs and metabolites in complex biological matrices
+
+ * 2013 - 2014: Assistant Chemist - Environmental Sciences Corporation
+  *Performed trace metals analysis of environmental samples using ICP-MS instrumentation
+
+ * 2012 - 2013: Health Physics Technician - Bartlett Nuclear
+  * ANSI 18.1 qualified health physics technician supporting nuclear power and radiochemistry facilities
+  * Conducted radiological surveys and monitored personnel in controlled radiation environments
+
+* Rite Aid Pharmacy
+  * State-registered pharmacy technician supporting pharmaceutical dispensing and patient services
   
 Skills
 ======
@@ -45,7 +66,7 @@ Skills
   * Antigen retrival, IHC, MALDI-IHC workflows
 * Instrumentation
   * Orbitrap (Q Exactive, Exploris - Thermo), FT-ICR, qToF (timsTOF, RapiFlex, Auto - UltraFlex - Bruker)
-  * Triple quadrupole LC-MS/MS (Shimadzu - Sciex, GC-MS (Agilient), ICP-MS (Perkin Elmer)
+  * Triple quadrupole LC-MS/MS (Shimadzu - Sciex, GC-MS (Agilent), ICP-MS (Perkin Elmer)
 * Data Analysis and Software
   * MSiReader, SCiLS Lab, HDimaging, METASPACE
   * Thermo Xcalibur / FreeStyle
@@ -80,11 +101,11 @@ Teaching
 Professional Memberships
 ======
 * European Association of Cancer Research - since 2025
-* GdR-MSI (GDR2125) – founding member 2022
-* Le Groupe d’Etude et de Recherche en Lipidomique (GERLI) – since 2021
-* Société Française de Spectrométrie de Masse (SFSM) – Since 2020
-* French Proteomics Society – Since 2020
-* Mass Spectrometry Imaging Society – since 2018
+* GdR-MSI (GDR2125) - founding member 2022
+* Le Groupe d’Etude et de Recherche en Lipidomique (GERLI) - since 2021
+* Société Française de Spectrométrie de Masse (SFSM) - since 2020
+* French Proteomics Society - since 2020
+* Mass Spectrometry Imaging Society - since 2018
 * Imaging Mass Spectrometry Society - founding member 2017
 * American Society of Mass Spectrometry - since 2016
 
