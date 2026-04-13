@@ -5,5 +5,5 @@ type: "Poster Presentation"
 permalink: /talks/2019-malaria-asms
 venue: "American Society for Mass Spectrometry"
 date: 2019-06-01
-location: "Atlanta, Georgia USA"
+location: "Atlanta, Georgia, USA"
 ---
