@@ -1,5 +1,5 @@
 ---
-title: "Advanced Imaging Mass Spectrometry (AIMS) (2017 - 2019)"
+title: "Advanced Imaging Mass Spectrometry (AIMS) 2017 - 2019"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/aims-vanderbilt
