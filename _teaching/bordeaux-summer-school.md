@@ -1,5 +1,5 @@
 ---
-title: "Advanced Mass Spectrometry Applied to Cultural Heritage (2021-2022)"
+title: "Advanced Mass Spectrometry Applied to Cultural Heritage 2021-2022"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/bordeaux-summer-school
