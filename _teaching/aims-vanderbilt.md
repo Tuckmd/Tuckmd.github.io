@@ -1,10 +1,10 @@
 ---
-title: "Advanced Imaging Mass Spectrometry (AIMS) 2017 - 2019"
+title: "Advanced Imaging Mass Spectrometry (AIMS) (2017 - 2019)"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/aims-vanderbilt
 venue: "Vanderbilt University"
-date: "2017-2019"
+date: "2017"
 location: "Nashville, Tennessee USA"
 ---
 
