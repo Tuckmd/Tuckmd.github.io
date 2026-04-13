@@ -34,12 +34,30 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Mass Spectrometry and Imaging
+  * MALDI-MSI, DESI-MSI, intraoperative MS (MasSpec Pen)
+  * Quantitative MSI and mimetic tissue models
+  * Spatial metabolomics, pharmaceutical, and multimodal imaging workflows
+* Histology
+  * Cryosectioning (Thermo, Leica) of fresh-frozen tissue
+  * Microtome FFPE tissue
+  * Various histological stainings
+  * Antigen retrival, IHC, MALDI-IHC workflows
+* Instrumentation
+  * Orbitrap (Q Exactive, Exploris - Thermo), FT-ICR, qToF (timsTOF, RapiFlex, Auto - UltraFlex - Bruker)
+  * Triple quadrupole LC-MS/MS (Shimadzu - Sciex, GC-MS (Agilient), ICP-MS (Perkin Elmer)
+* Data Analysis and Software
+  * MSiReader, SCiLS Lab, HDimaging, METASPACE
+  * Thermo Xcalibur / FreeStyle
+  * R (ggplot2), Cardinal, LaTeX, basic scripting and data visualization
+* Experimental Design & Research
+  * Method development and validation
+  * Translational and clinical MS workflows
+* Leadership & Communication
+  * Project management and cross-disciplinary collaboration
+  * Scientific writing and peer-reviewed publication
+  * Teaching workshops and mentoring trainees
+  * English (fluent), French (working proficiency)
 
 Publications
 ======
