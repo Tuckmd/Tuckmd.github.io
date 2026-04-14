@@ -112,5 +112,5 @@ Professional Memberships
 Service and leadership
 ======
 * Science Fair Judge (Since 2024)
-* Houston Food Bank Volunteer (Since 2024
+* Houston Food Bank Volunteer (Since 2024)
 * Middle and high school wrestling official (2025)
