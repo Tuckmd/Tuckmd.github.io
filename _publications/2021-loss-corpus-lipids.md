@@ -7,5 +7,6 @@ excerpt: 'This paper uses mass spectrometry imaging–based lipidomics to show t
 date: 2021-11-01
 venue: 'mSphere'
 paperurl: 'https://doi.org/10.1128/msphere.00826-21'
+image: '/images/msphere.png'
 citation: 'Lin, A.S., Shuman, J.H.B., Kotnala, A., Shaw, J.A., Beckett, A.C., Harvey, J.L., Tuck, M., et al. (2021). &quot;Loss of Corpus-Specific Lipids in Helicobacter pylori-Induced Atrophic Gastritis.&quot; <i>mSphere</i>. 6(6), e00826-21.'
 ---
