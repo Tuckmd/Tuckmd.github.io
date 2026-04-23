@@ -7,5 +7,6 @@ excerpt: 'This work demonstrates that engineering a lysosomal enzyme with a tran
 date: 2020-05-01
 venue: 'Science Translational Medicine'
 paperurl: 'https://doi.org/10.1126/scitranslmed.aay1163'
+image: '/images/blood_brain_barrier.png'
 citation: 'Ullman, J.C., Arguello, A., Getz, J.A., Bhalla, A., Mahon, C.S., Wang, J., et al. (2020). &quot;Brain Delivery and Activity of a Lysosomal Enzyme Using a Blood-Brain Barrier Transport Vehicle in Mice.&quot; <i>Science Translational Medicine</i>. 12(545), eaay1163.'
 ---
