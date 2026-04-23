@@ -7,5 +7,6 @@ excerpt: 'This paper investigates the delivery and release characteristics of lo
 date: 2022-05-02
 venue: 'Scientific Reports'
 paperurl: 'https://www.nature.com/articles/s41598-022-11020-2'
+image: '/images/tenofovir.png'
 citation: 'Gunawardana, M., Remedios-Chan, M., Sanchez, D., Webster, S., Castonguay, A.E., Webster, P., Buser, C., Moss, J.A., Trinh, M., Beliveau, M., Tuck, M., et al. (2022). &quot;Fundamental Aspects of Long-Acting Tenofovir Alafenamide Delivery from Subdermal Implants for HIV Prophylaxis.&quot; <i>Scientific Reports</i>. 12(1), 8224.'
 ---
