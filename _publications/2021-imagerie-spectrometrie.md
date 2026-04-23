@@ -7,5 +7,6 @@ excerpt: 'Our review on multimodal imaging was adapted for a French-language ref
 date: 2021-01-01
 venue: 'EDP Sciences'
 paperurl: 'https://hal.science/hal-03954524'
+image: '/images/book.png'
 citation: 'Blanc, L., Brunelle, A., Courreges, C., Desbenoit, N., Fournier, I., Franck, J., Labeyrie, L., Mounicou, S., Salpin, J.Y., Schaumloffel, D., Tuck, M., et al. (2021). &quot;Imagerie par Spectrometrie de Masse: Principes et Applications.&quot;'
 ---
