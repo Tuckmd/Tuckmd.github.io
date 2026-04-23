@@ -7,5 +7,6 @@ excerpt: 'Here, MALDI imaging is combined with transcriptomic analysis to identi
 date: 2018-07-01
 venue: 'Frontiers in Molecular Neuroscience'
 paperurl: 'https://doi.org/10.3389/fnmol.2018.00243'
+image: '/images/noble.png'
 citation: 'Noble, K.V., Reyzer, M.L., Barth, J.L., McDonald, H., Tuck, M., Schey, K.L., Krug, E.L., Lang, H. (2018). &quot;Use of Proteomic Imaging Coupled with Transcriptomic Analysis to Identify Biomolecules Responsive to Cochlear Injury.&quot; <i>Frontiers in Molecular Neuroscience</i>. 11, 243.'
 ---
