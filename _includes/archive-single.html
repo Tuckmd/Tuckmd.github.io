@@ -26,14 +26,14 @@
       </div>
     {% endif %}
 
-<h2 class="archive__item-title" itemprop="headline">
+<h2 class="archive__item-title" itemprop="headline" style="text-decoration: none;">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
-        {{ title }}
+        <span style="text-decoration: none; cursor: default;">{{ title }}</span>
       {% endif %}
     </h2>
-
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
