@@ -27,10 +27,12 @@
     {% endif %}
 
 <h2 class="archive__item-title" itemprop="headline" style="text-decoration: none;">
-      {% if post.link %}
+      {% if post.collection == 'publications' %}
+        <span style="text-decoration: none; cursor: default;">{{ title }}</span>
+      {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
-        <span style="text-decoration: none; cursor: default;">{{ title }}</span>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
     
