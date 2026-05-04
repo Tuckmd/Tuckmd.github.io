@@ -7,6 +7,52 @@ redirect_from:
   - /about.html
 ---
 
+<div style="position: relative; width: 100%; max-width: 700px; margin: 2rem auto;">
+  <div id="slideshow" style="overflow: hidden; border-radius: 8px; border: 0.5px solid #ddd;">
+    <div id="slides" style="display: flex; transition: transform 0.4s ease;">
+    </div>
+  </div>
+  <button onclick="changeSlide(-1)" style="position: absolute; left: -20px; top: 50%; transform: translateY(-50%); border-radius: 50%; width: 36px; height: 36px; cursor: pointer;">&#8592;</button>
+  <button onclick="changeSlide(1)" style="position: absolute; right: -20px; top: 50%; transform: translateY(-50%); border-radius: 50%; width: 36px; height: 36px; cursor: pointer;">&#8594;</button>
+  <div id="dots" style="text-align: center; margin-top: 10px;"></div>
+  <p id="caption" style="text-align: center; font-size: 13px; color: #666; margin-top: 8px; min-height: 20px;"></p>
+</div>
+
+<script>
+const slides = [
+  { src: "/images/thesis_graphical_abstract.png", caption: "Graphical abstract for my PhD work" },
+  { src: "/images/frontiers_multimodal.png", caption: "Workflow for multimodal imaging data integration and registration (Frontiers 2021)" },
+  { src: "/images/graphical_abstract_mmi.png", caption: "Multimodal imaging combined with vibrational spectroscopy (ACS 2020)" },
+];
+
+let current = 0;
+const track = document.getElementById('slides');
+const dotsEl = document.getElementById('dots');
+const captionEl = document.getElementById('caption');
+
+slides.forEach((s, i) => {
+  const img = document.createElement('img');
+  img.src = s.src;
+  img.style = "min-width: 100%; max-height: 400px; object-fit: contain; background: #f5f5f5;";
+  track.appendChild(img);
+  const dot = document.createElement('span');
+  dot.style = "display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ccc; margin: 0 4px; cursor: pointer;";
+  dot.onclick = () => goTo(i);
+  dotsEl.appendChild(dot);
+});
+
+function goTo(n) {
+  current = (n + slides.length) % slides.length;
+  track.style.transform = `translateX(-${current * 100}%)`;
+  captionEl.textContent = slides[current].caption;
+  document.querySelectorAll('#dots span').forEach((d, i) => d.style.background = i === current ? '#378ADD' : '#ccc');
+}
+
+function changeSlide(dir) { goTo(current + dir); }
+
+goTo(0);
+</script>
+
 I am an analytical chemist and biomedical researcher specializing in mass spectrometry imaging and spatial metabolomics. I am currently a postdoctoral associate at Baylor College of Medicine, where my work focuses on developing and applying spatial and medical mass spectrometry approaches to study metabolism directly in tissue, with applications in surgical oncology. My prior work focused extensively on infectious disease, particularly tuberculosis.
 
 I have over a decade of experience in mass spectrometry imaging, including MALDI and DESI, and have developed quantitative workflows for measuring drugs and metabolites in complex biological systems. I completed my PhD at Université de Bordeaux, where I developed methods for the simultaneous quantification of multiple anti-tuberculosis drugs in tissue. I began my research career at Vanderbilt University in the Mass Spectrometry Resource Center led by Richard Caprioli.
