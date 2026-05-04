@@ -59,6 +59,7 @@ Skills
   * MALDI-MSI, DESI-MSI, intraoperative MS (MasSpec Pen)
   * Quantitative MSI and mimetic tissue models
   * Spatial metabolomics, pharmaceutical, and multimodal imaging workflows
+  * LC-MS/MS, GC-MS, and ICP-MS
 * Histology
   * Cryosectioning (Thermo, Leica) of fresh-frozen tissue
   * Microtome FFPE tissue
