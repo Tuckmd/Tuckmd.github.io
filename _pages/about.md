@@ -21,8 +21,11 @@ redirect_from:
 <script>
 const slides = [
   { src: "/images/thesis_graphical_abstract.png", caption: "Graphical abstract for my PhD work" },
+  { src: "/images/bordeaux_instrument.jpg", caption: "Graphical abstract for my PhD work" },
   { src: "/images/frontiers_multimodal.png", caption: "Workflow for multimodal imaging data integration and registration (Frontiers 2021)" },
+  { src: "/images/OR_pic.jpg", caption: "Graphical abstract for my PhD work" },
   { src: "/images/graphical_abstract_mmi.png", caption: "Multimodal imaging combined with vibrational spectroscopy (ACS 2020)" },
+  { src: "/images/prize_pic.jpg", caption: "Graphical abstract for my PhD work" },
 ];
 
 let current = 0;
