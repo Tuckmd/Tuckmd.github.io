@@ -80,6 +80,15 @@ Skills
   * Scientific writing and peer-reviewed publication
   * Teaching workshops and mentoring trainees
   * English (fluent), French (working proficiency)
+  
+Service and Scientific Leadership
+======
+* Editorial Responsibilities
+  * Topic Coordinator in Frontiers in Cellular and Infectious Microbiology
+  * Special Topic: Navigating the Microbial Landscape: Integrating Mass Spectrometry Imaging and Other Multimodal Imaging Approaches for Spatially Resolved Microbial Studies
+* Reviewer Responsibilities
+  * Journal of American Society for Mass Spectrometry
+  * Nature Protocols
 
 Publications
 ======
