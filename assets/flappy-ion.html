@@ -212,6 +212,10 @@ function loop() {
 
 canvas.addEventListener('click', flap);
 document.addEventListener('keydown', function(e){ if(e.code==='Space'){e.preventDefault();flap();} });
+ion = { x: 120, y: H/2, vy: 0, radius: 10, trail: [] };
+rods = [];
+particles = [];
+flashes = [];
 loop();
 </script>
 </body>
