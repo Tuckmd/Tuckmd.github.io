@@ -103,6 +103,7 @@ function update() {
   document.getElementById('fi-best').textContent = 'Best: ' + highScore;
   document.getElementById('fi-state').textContent =
     state==='playing' ? 'm/z crossings: ' + score : state==='dead' ? 'Ion lost! Click to retry' : 'Click or Space to Start';
+}
 
 function checkCollision() {
   if (ion.y-ion.radius < 0 || ion.y+ion.radius > H) return true;
