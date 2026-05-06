@@ -26,6 +26,7 @@ Click anywhere on the game or press Space to flap!
   <canvas id="fi-canvas" width="600" height="400"></canvas>
 </div>
 
+{% raw %}
 <script>
 (function(){
 const canvas = document.getElementById('fi-canvas');
@@ -123,7 +124,7 @@ function drawBg() {
   for(let x=-off;x<W;x+=40){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();}
   for(let y=0;y<H;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();}
   ctx.fillStyle='rgba(100,100,200,0.4)'; ctx.font='11px monospace';
-  ctx.fillText('m/z →', W-50, H-8);
+  ctx.fillText('m/z \u2192', W-50, H-8);
 }
 
 function drawRodBar(x1,y1,x2,y2,isTop) {
@@ -140,7 +141,7 @@ function drawRodBar(x1,y1,x2,y2,isTop) {
   ctx.ellipse(capX,(y1+y2)/2,6,(y2-y1)/2,0,0,Math.PI*2);
   ctx.fill(); ctx.strokeStyle='#6666bb'; ctx.lineWidth=1; ctx.stroke();
   ctx.fillStyle='rgba(150,150,255,0.7)'; ctx.font='bold 9px monospace';
-  ctx.fillText(isTop?'+V':'−V', isTop?Math.max(x1+4,capX-16):Math.min(x2-24,capX+8),(y1+y2)/2+3);
+  ctx.fillText(isTop?'+V':'-V', isTop?Math.max(x1+4,capX-16):Math.min(x2-24,capX+8),(y1+y2)/2+3);
 }
 
 function drawRods() {
@@ -160,7 +161,7 @@ function drawIon() {
   ion.trail.forEach((t,i)=>{
     const a=(i/ion.trail.length)*0.5, s=ion.radius*(i/ion.trail.length)*0.7;
     ctx.beginPath(); ctx.arc(t.x,t.y,s,0,Math.PI*2);
-    ctx.fillStyle=`rgba(0,255,200,${a})`; ctx.fill();
+    ctx.fillStyle='rgba(0,255,200,'+a+')'; ctx.fill();
   });
   const glow=ctx.createRadialGradient(ion.x,ion.y,0,ion.x,ion.y,ion.radius*3);
   glow.addColorStop(0,'rgba(0,255,200,0.4)'); glow.addColorStop(1,'rgba(0,255,200,0)');
@@ -199,8 +200,8 @@ function drawOverlay() {
     ctx.fillStyle='#ff4444'; ctx.font='bold 28px monospace'; ctx.textAlign='center';
     ctx.fillText('ION LOST',W/2,H/2-50);
     ctx.fillStyle='#aaaaff'; ctx.font='16px monospace';
-    ctx.fillText(`m/z crossings: ${score}`,W/2,H/2-10);
-    ctx.fillText(`Best: ${highScore}`,W/2,H/2+20);
+    ctx.fillText('m/z crossings: '+score,W/2,H/2-10);
+    ctx.fillText('Best: '+highScore,W/2,H/2+20);
     ctx.fillStyle=ION_COLOR; ctx.font='14px monospace';
     ctx.fillText('Click or Space to retry',W/2,H/2+55);
     ctx.textAlign='left';
@@ -216,7 +217,7 @@ function drawScore() {
 function loop() {
   if(state==='playing') update();
   drawBg(); drawRods();
-  flashes.forEach(f=>{ ctx.fillStyle=`rgba(0,255,200,${f.life*0.08})`; ctx.fillRect(0,0,W,H); });
+  flashes.forEach(f=>{ ctx.fillStyle='rgba(0,255,200,'+(f.life*0.08)+')'; ctx.fillRect(0,0,W,H); });
   drawIon(); drawParticles(); drawScore(); drawOverlay();
   requestAnimationFrame(loop);
 }
@@ -226,3 +227,4 @@ document.addEventListener('keydown', e=>{ if(e.code==='Space'){e.preventDefault(
 loop();
 })();
 </script>
+{% endraw %}
