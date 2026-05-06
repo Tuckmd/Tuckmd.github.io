@@ -1,7 +1,7 @@
 ---
 title: "Flappy Ion"
-date: 2024-01-01
-permalink: /posts/2024/01/flappy-ion/
+date: 2026-05-05
+permalink: /posts/2026/05/flappy-ion/
 tags:
   - games
   - fun
