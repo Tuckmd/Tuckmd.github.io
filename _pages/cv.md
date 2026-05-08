@@ -64,14 +64,14 @@ Skills
   * Cryosectioning (Thermo, Leica) of fresh-frozen tissue
   * Microtome FFPE tissue
   * Various histological stainings
-  * Antigen retrival, IHC, MALDI-IHC workflows
+  * Antigen retrieval, IHC, MALDI-IHC workflows
 * Instrumentation
   * Orbitrap (Q Exactive, Exploris - Thermo), FT-ICR, qToF (timsTOF, RapiFlex, Auto - UltraFlex - Bruker)
   * Triple quadrupole LC-MS/MS (Shimadzu - Sciex, GC-MS (Agilent), ICP-MS (Perkin Elmer)
 * Data Analysis and Software
   * MSiReader, SCiLS Lab, HDimaging, METASPACE
   * Thermo Xcalibur / FreeStyle
-  * R (ggplot2), Cardinal, LaTeX, basic scripting and data visualization
+  * R (ggplot2), Cardinal, LaTeX, basic scripting, and data visualization
 * Experimental Design & Research
   * Method development and validation
   * Translational and clinical MS workflows
@@ -87,7 +87,7 @@ Service and Scientific Leadership
   * Topic Coordinator in Frontiers in Cellular and Infectious Microbiology
   * Special Topic: Navigating the Microbial Landscape: Integrating Mass Spectrometry Imaging and Other Multimodal Imaging Approaches for Spatially Resolved Microbial Studies
 * Reviewer Responsibilities
-  * Journal of American Society for Mass Spectrometry
+  * Journal of the American Society for Mass Spectrometry
   * Nature Protocols
 
 Publications
@@ -119,7 +119,7 @@ Professional Memberships
 * Imaging Mass Spectrometry Society - founding member 2017
 * American Society of Mass Spectrometry - since 2016
 
-Service and leadership
+Volunteer Work and Leadership
 ======
 * Science Fair Judge (Since 2024)
 * Houston Food Bank Volunteer (Since 2024)
