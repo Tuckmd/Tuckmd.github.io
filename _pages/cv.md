@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Bioimaging, Université de Bordeaux, 2024
-* B.S. in Biochemistry and Molecular Biology, 2012
+* B.S. in Biochemistry and Molecular Biology, University of Tennessee 2012
 * A.S. in Pre-medicine, Cleveland State Community College, 2010
 
 Work experience
