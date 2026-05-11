@@ -8,9 +8,9 @@ date: "2023-7-15"
 location: "Bordeaux, France"
 ---
 
-## Overview
+### Overview
 This course was a mix of practical workshops and lectures for master's and early graduate students at the Université de Bordeaux. 
-## Topics Covered
+### Topics Covered
 - Sample preparation considerations
 - Methods for quantitative mass spectrometry imaging
 - Multimodal imaging
