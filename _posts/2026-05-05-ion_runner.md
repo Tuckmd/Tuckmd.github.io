@@ -7,8 +7,6 @@ tags:
   - fun
 ---
 
-<iframe src="/assets/ion_runner.html" width="620" height="560" style="border:none; display:block; margin: 0 auto;"></iframe>
-
 Whenever I am optimizing an instrument, particularly for a targeted analyte, I often 
 think about the ion's journey from desorption to the detector. I had heard [quadrupole theory](https://www.nobelprize.org/prizes/physics/1989/paul/lecture/) described as balancing a marble on two saddles (alternating RF and DC voltages) 
 spinning very quickly, trying to keep the marble from falling.
@@ -33,3 +31,5 @@ knock your ion off course. Maintain a stable trajectory long enough to reach **2
 flight time and achieve detection.
 
 Use **Q** and **P** on your keyboard, or tap the top and bottom halves of the game on mobile.
+
+<iframe src="/assets/ion_runner.html" width="620" height="560" style="border:none; display:block; margin: 0 auto;"></iframe>
