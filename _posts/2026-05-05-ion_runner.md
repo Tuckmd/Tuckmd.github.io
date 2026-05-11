@@ -12,10 +12,12 @@ think about the ion's journey from desorption to the detector. I had heard quadr
 theory described as balancing a marble on two saddles (alternating RF and DC voltages) 
 spinning very quickly, trying to keep the marble from falling.
 
+![<div style="text-align: center;">
+  <img src="/images/rotating_saddle_clean.gif" alt="Quadrupole saddle analogy" style="width: 50%; max-width: 300px;" />
+</div>](/images/rotating_saddle_clean.gif)
+
 I think about the Mathieu stability diagram, and whether my ion is being ejected from 
 the quadrupole, crashing into one of the rods, or just dancing its way through.
-
-![Quadrupole saddle analogy](/images/rotating_saddle_clean.gif)
 
 So I created this little browser game. There are A LOT of artistic liberties taken here, 
 but it's not too far from what I see in my mind when tuning the instrument parameters.
