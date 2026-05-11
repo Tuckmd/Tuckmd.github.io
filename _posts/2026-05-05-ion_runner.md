@@ -1,7 +1,7 @@
 ---
 title: "ION Runner"
 date: 2026-05-05
-permalink: /posts/2026/05/ion_runner/
+permalink: /posts/2026/05/ion-runner/
 tags:
   - games
   - fun
