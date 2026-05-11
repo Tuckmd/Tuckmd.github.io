@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Michael Tuck"
 author_profile: true
 redirect_from: 
   - /about/
@@ -67,3 +67,12 @@ My current research integrates real-time metabolic flux analysis and spatial bio
 Thank you for your interest in my work. On this site you can find links and descriptions of my [publications](/publications/), a [map of my presentations](/talkmap.html), and other [CV items](/cv/). I also build and post [research analytics tools](/posts/2024/01/author-analytics/) and occasionally write about research methodology. You can find these in the [Blog](/year-archive/) section.
 
 If you are interested in collaborating on a project, please feel free to reach out.
+
+<div style="margin: 1.5rem 0; display: flex; gap: 16px; align-items: center; padding: 14px 18px; border: 1px solid #333; border-radius: 8px; background: rgba(0,0,20,0.4);">
+  <img src="/images/rotating_saddle_clean.gif" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px; flex-shrink: 0;" />
+  <div>
+    <strong style="font-size: 1.05em;">🎮 Ion Runner</strong><br>
+    <small>A browser game based on quadrupole ion physics. Control the RF/DC field and keep your ion on a stable trajectory.<br>
+    <a href="/posts/2026/05/flappy-ion/">Play now →</a></small>
+  </div>
+</div>
