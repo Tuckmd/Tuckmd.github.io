@@ -56,9 +56,9 @@ function changeSlide(dir) { goTo(current + dir); }
 goTo(0);
 </script>
 
-I am an analytical chemist and biomedical researcher specializing in mass spectrometry imaging and spatial metabolomics. I am currently a postdoctoral associate at Baylor College of Medicine, where my work focuses on developing and applying spatial and medical mass spectrometry approaches to study metabolism directly in tissue, with applications in surgical oncology. My prior work focused extensively on infectious disease, particularly tuberculosis.
+I am an analytical chemist and biomedical researcher specializing in mass spectrometry imaging and spatial metabolomics. I am currently a postdoctoral associate in Livia Eberlin's group at Baylor College of Medicine, where my work focuses on developing and applying spatial and medical mass spectrometry approaches to study metabolism directly in tissue, with applications in surgical oncology. My prior work focused extensively on infectious disease, particularly tuberculosis.
 
-I have over a decade of experience in mass spectrometry imaging, including MALDI and DESI, and have developed quantitative workflows for measuring drugs and metabolites in complex biological systems. I completed my PhD at Université de Bordeaux, where I developed methods for the simultaneous quantification of multiple anti-tuberculosis drugs in tissue. I began my research career at Vanderbilt University in the Mass Spectrometry Resource Center led by Richard Caprioli.
+I have over a decade of experience in mass spectrometry imaging, including MALDI and DESI, and have developed quantitative workflows for measuring drugs and metabolites in complex biological systems. I completed my PhD at Université de Bordeaux under the direction of Nicolas Desbenoit, where I developed methods for the simultaneous quantification of multiple anti-tuberculosis drugs in tissue. I began my research career at Vanderbilt University in the Mass Spectrometry Resource Center led by Richard Caprioli.
 
 My current research integrates real-time metabolic flux analysis and spatial biology to better understand disease processes and support translational and clinical applications.
 
