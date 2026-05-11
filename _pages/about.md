@@ -66,7 +66,7 @@ My current research integrates real-time metabolic flux analysis and spatial bio
 
 Thank you for your interest in my work. On this site you can find links and descriptions of my [publications](/publications/), a [map of my presentations](/talkmap.html), and other [CV items](/cv/). I also build and post [research analytics tools](/posts/2024/01/author-analytics/) and occasionally write about research methodology. You can find these in the [Blog](/year-archive/) section.
 
-If you are interested in collaborating on a project, please feel free to reach out.
+If you are interested in collaborating on a project, please feel free to reach out. Or, kill some time with this mass spec themed browser game I made!
 
 <div style="margin: 1.5rem 0; display: flex; gap: 16px; align-items: center; padding: 14px 18px; border: 1px solid #333; border-radius: 8px; background: rgba(0,0,20,0.4);">
   <img src="/images/rotating_saddle_clean.gif" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px; flex-shrink: 0;" />
