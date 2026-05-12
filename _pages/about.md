@@ -73,6 +73,6 @@ If you are interested in collaborating on a project, please feel free to reach o
   <div>
     <strong style="font-size: 1.05em;">🎮 Ion Runner</strong><br>
     <small>A browser game based on quadrupole ion physics. Control the RF/DC field and keep your ion on a stable trajectory.<br>
-    <a href="/posts/2026/05/ion_runner/">Play now →</a></small>
+    <a href="/posts/2026/05/ion-runner/">Play now →</a></small>
   </div>
 </div>
