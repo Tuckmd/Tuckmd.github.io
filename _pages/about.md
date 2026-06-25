@@ -23,7 +23,7 @@ const slides = [
   { src: "/images/thesis_graphical_abstract.png", caption: "Graphical abstract for my PhD work" },
   { src: "/images/bordeaux_instrument.jpg", caption: "Much of the work during my PhD in Bordeaux was conducted on the Orbitrap Qexactive combined with the TransMIT AP-SMALDI5 ionization source" },
   { src: "/images/frontiers_multimodal.png", caption: "Workflow for multimodal imaging data integration and registration (Frontiers 2021)" },
-  { src: "/images/OR_pic.jpg", caption: "Dr. Shanneik and I conducting mobile medical mass spectrometry in the Operating Room" },
+  { src: "/images/OR_pic2.jpg", caption: "Dr. Shanneik and I conducting mobile medical mass spectrometry in the Operating Room" },
   { src: "/images/graphical_abstract_mmi.png", caption: "Multimodal imaging combined with vibrational spectroscopy (ACS 2020)" },
   { src: "/images/prize_pic.jpg", caption: "The Michael E. DeBakey Department of Surgery Innovation Scholar Award delivered by my PI, Dr. Livia Eberlin" },
 ];
